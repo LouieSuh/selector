@@ -1,0 +1,119 @@
+/* Selector */
+
+/* 1. Universal Selector */
+/* 요소 내부의 모든 요소를 선택 */
+
+*{
+    /* 적용할 스타일 */
+  font-size: 20px;
+    
+}
+
+/* tag selector */
+/* 태크 이름이 ~인 요소를 선택 */
+
+li{
+    
+}
+
+span{
+    
+}
+
+/* Class selector */
+/* class 속성의 값이 ~인 요소 선택 */
+.orange{
+    
+}
+
+/* id slector */
+/* id 속성의 값인 ~인 요소 선택 */
+#red-orange{
+    
+}
+
+/* Combination selector (복합 선택자)*/
+
+/* Basic Combinator(일치 선택자) */
+span.orange{
+   
+}
+
+li#red-orange {
+    
+}
+/* 자식 선택자  */
+ul>.orange{
+    
+}
+
+div .orange{
+    
+}
+
+/* 입접 형재 선택자 */
+.orange+ li{
+    color:red;
+}
+
+.orange~ li{
+    color:blue;
+}
+
+.blue-box{
+    color:white;
+    background-color: blue;
+   
+}
+
+#red-box{
+    color:black;
+    border: 1px solid red;
+}
+
+#red-box:hover{
+    color:white;
+    background-color: red;
+    border:1px solid orange;
+}
+
+#mangostin{
+    color: purple;
+    border:1px solid purple;
+}
+#mangostin:hover{
+    color: white;
+    background-color: purple;
+    border: white;
+}
+
+#banana{
+    color:yellow;
+    border:1px solid yellow;
+    
+}
+
+#banana:hover{
+    color:black;
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 50px 100px;
+}
+
+.health-box{
+    box-sizing: border-box;
+    width: 130px;
+    height: 70px;
+    color:white;
+    background-color: rgb(7, 212, 7);
+    padding: 25px 47.5px;
+    margin: 50px;
+    
+    
+}
